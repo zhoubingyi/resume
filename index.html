@@ -6,25 +6,25 @@
 	<meta name="viewport" content="width=device-width" />
 	<meta charset="UTF-8">
 	<link type="text/css" rel="stylesheet" href="style.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 
 <body id="top">
+	<div id="vue-app">
 	<div id="cv" class="instaFade">
 		<div class="mainDetails">
 
 			<div id="name">
-				<h1 class="quickFade delayTwo">周秉颐</h1>
-				<h2 class="quickFade delayThree">Web前端工程师</h2>
+				<h1 class="quickFade delayTwo">{{name}}</h1>
+				<h2 class="quickFade delayThree">{{job}}</h2>
 			</div>
 
 			<div id="contactDetails" class="quickFade delayFour">
 				<ul>
-					<li>男 / 1996.5</li>
-					<li>大连民族大学 · 软件工程</li>
-					<li>本科 / 2019年7月毕业</li>
-					<li>e: <a href="mailto:zhoubingyiya@gmail.com" target="_blank">zhoubingyiya@gmail.com</a></li>
-					<li>m: 136xxxxxxxx</li>
+					<li v-for="me in aboutMeItems">{{me.aboutMe}}</li>
+					<li v-html="Email"></li>
 				</ul>
+
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -37,13 +37,12 @@
 
 				<div class="sectionContent">
 					<div class="projectContent">
-						<article>
+						<article v-for="name in projectContentNames">
 
-							<h2>购物网站</h2>
+							<h2>{{name.projectName}}</h2>
 							<!-- <p class="subDetails">October 2004 - December 2006</p> -->
 							<ul>
-								<li>主要是使用 HTML 标记、div + CSS + JavaScript Dom 操作等前端 Web 技术进行网站的开发</li>
-								<li>通过 JavaScript(jQuery框架) 实现效果，如轮播图及回到顶部，导航下拉菜单及三级菜单实现 </li>
+								<li v-for="content in projectContents">{{content.projectContent}}</li>
 							</ul>
 						</article>
 						<br>
@@ -95,12 +94,14 @@
 				</div>
 				<div class="sectionContent">
 					<article>
+						<div class="toMe">
 						<ul>
 							<li>对互联网产品和Web技术有强烈兴趣，有优秀的学习能力和强烈的进取心</li>
 							<li>开发过一些开源的小项目，比如使用 Python 将课表导入日历</li>
 							<li>喜欢钻研各种新技术，经常到github学习代码</li>
 							<li>较强的事业心和责任心</li>
 						</ul>
+						</div>
 					</article>
 				</div>
 				<div class="clear"></div>
@@ -110,7 +111,7 @@
 			<a class="footer-link" href="https://zhoubingyi.github.io/resume/">Resume On Github</a>
 		</footer>
 	</div>
-
+	</div>
+	<script src="app.js"></script>
 </body>
-
 </html>

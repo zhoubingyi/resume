@@ -210,6 +210,10 @@ section:last-child {
 	margin-bottom: 10px;
 }
 
+.sectionContent .toMe ul {
+	list-style: none;
+}
+
 .projectContent {
 	margin-bottom: 20px;
 }
