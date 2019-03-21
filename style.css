@@ -93,7 +93,7 @@ html,
 body {
 	font-family: 'Lato', helvetica, arial, sans-serif;
 	font-size: 16px;
-	color: #222;
+
 }
 
 .clear {
@@ -167,12 +167,12 @@ p {
 
 #contactDetails ul li {
 	margin-bottom: 3px;
-	color: #444;
+		color: rgba(118, 106, 106, 0.81);
 }
 
 #contactDetails ul li a,
 a[href^=tel] {
-	color: #444;
+		color: rgba(118, 106, 106, 0.81);
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -189,6 +189,7 @@ a[href^=tel] {
 section {
 	border-top: 1px solid #dedede;
 	padding: 20px 0 0;
+		color: rgba(118, 106, 106, 0.81);
 }
 
 section:first-child {
@@ -220,7 +221,6 @@ section:last-child {
 
 .sectionTitle h1 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-style: italic;
 	font-size: 1.5em;
 	color: #cf8a05;
 }
@@ -241,7 +241,7 @@ section:last-child {
 	/* list-style-type: none; */
 	margin-bottom: 20px;
 	font-size: 1em;
-	color: #444;
+		color: rgba(118, 106, 106, 0.81);
 }
 
 .keySkills ul li {
