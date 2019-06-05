@@ -18,6 +18,15 @@ new Vue({
         ],
         Email: 'e: <a href="mailto:zhoubingyiya@gmail.com" target="_blank">zhoubingyiya@gmail.com</a>',
 
+        // 实习经历
+        exercitationExperience: '实习经历',
+        exercitations: {
+            One: {
+                name: '朗玛科技 2019/3-2019.5',
+                content: '开发电视机顶盒相关 App'
+            },
+        },
+
         // 项目介绍
         projectExperience: '项目经历',
         projects: {

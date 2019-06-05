@@ -26,6 +26,24 @@
 			<div id="mainArea" class="quickFade delayFive">
 				<section>
 					<div class="sectionTitle">
+						<h1>{{exercitationExperience}}</h1>
+					</div>
+					<div class="sectionContent">
+						<div class="exercitationContent" v-for="exercitation in exercitations">
+							<article>
+								<h2>{{exercitation.name}}</h2>
+								<!-- <p>{{project.content}}</p> -->
+								<ul>
+									<li>{{exercitation.content}}</li>
+								</ul>
+							</article>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</section>
+				<section>
+				<section>
+					<div class="sectionTitle">
 						<h1>{{projectExperience}}</h1>
 					</div>
 					<div class="sectionContent">
@@ -37,7 +55,6 @@
 									<li>{{project.content}}</li>
 								</ul>
 							</article>
-
 						</div>
 					</div>
 					<div class="clear"></div>

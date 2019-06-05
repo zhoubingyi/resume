@@ -113,7 +113,7 @@ p {
 	margin: 30px auto;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
 		0 6px 10px 0 rgba(0, 0, 0, 0.15);
-		overflow: auto;
+	overflow: auto;
 }
 
 .mainDetails {
@@ -167,12 +167,12 @@ p {
 
 #contactDetails ul li {
 	margin-bottom: 3px;
-		color: rgba(118, 106, 106, 0.81);
+	color: rgba(118, 106, 106, 0.81);
 }
 
 #contactDetails ul li a,
 a[href^=tel] {
-		color: rgba(118, 106, 106, 0.81);
+	color: rgba(118, 106, 106, 0.81);
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -189,7 +189,7 @@ a[href^=tel] {
 section {
 	border-top: 1px solid #dedede;
 	padding: 20px 0 0;
-		color: rgba(118, 106, 106, 0.81);
+	color: rgba(118, 106, 106, 0.81);
 }
 
 section:first-child {
@@ -241,7 +241,7 @@ section:last-child {
 	/* list-style-type: none; */
 	margin-bottom: 20px;
 	font-size: 1em;
-		color: rgba(118, 106, 106, 0.81);
+	color: rgba(118, 106, 106, 0.81);
 }
 
 .keySkills ul li {
