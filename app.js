@@ -7,10 +7,7 @@ new Vue({
                 aboutMe: '男 / 1996.5'
             },
             {
-                aboutMe: '大连民族大学 · 软件工程'
-            },
-            {
-                aboutMe: '本科 / 2019年7月毕业'
+                aboutMe: '本科 · 大连民族大学 · 软件工程'
             },
             {
                 aboutMe: 'm: 136xxxxxxxx'
@@ -22,8 +19,9 @@ new Vue({
         exercitationExperience: '实习经历',
         exercitations: {
             One: {
-                name: '朗玛科技 2019/3-2019.5',
-                content: '开发电视机顶盒相关 App'
+                name: '贵阳朗玛科技实习',
+                time: '2019/3-2019.5',
+                content: '开发电视机顶盒相关 App。做了清明节等相关等活动页面，遥控器焦点的跟踪。相关技术：用 thinkPhP 框架，使用原生JS。'
             },
         },
 
@@ -48,7 +46,8 @@ new Vue({
 
         // 技能介绍
         skills: '技能',
-        skillItems: [{
+        skillItems: [
+            {
                 skill: '掌握 Web 前端开发基本技能，熟悉 W3C 标准'
             },
             {

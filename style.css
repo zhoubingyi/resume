@@ -138,6 +138,10 @@ p {
 	padding: 0 40px;
 }
 
+#mainArea h3{
+	padding: 10px 0px;
+}
+
 #headshot {
 	width: 12.5%;
 	float: left;
