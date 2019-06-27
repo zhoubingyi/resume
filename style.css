@@ -171,12 +171,14 @@ p {
 
 #contactDetails ul li {
 	margin-bottom: 3px;
-	color: rgba(118, 106, 106, 0.81);
+	/* color: rgba(118, 106, 106, 0.81); */
+	color: black;
 }
 
 #contactDetails ul li a,
 a[href^=tel] {
-	color: rgba(118, 106, 106, 0.81);
+	/* color: rgba(118, 106, 106, 0.81); */
+	color: black;
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -193,7 +195,8 @@ a[href^=tel] {
 section {
 	border-top: 1px solid #dedede;
 	padding: 20px 0 0;
-	color: rgba(118, 106, 106, 0.81);
+	/* color: rgba(118, 106, 106, 0.81); */
+	color: black;
 }
 
 section:first-child {
@@ -245,7 +248,8 @@ section:last-child {
 	/* list-style-type: none; */
 	margin-bottom: 20px;
 	font-size: 1em;
-	color: rgba(118, 106, 106, 0.81);
+	/* color: rgba(118, 106, 106, 0.81); */
+	color: black;
 }
 
 .keySkills ul li {
