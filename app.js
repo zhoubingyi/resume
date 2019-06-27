@@ -10,7 +10,7 @@ new Vue({
                 aboutMe: '本科 · 大连民族大学 · 软件工程'
             },
             {
-                aboutMe: 'm: 136xxxxxxxx'
+                aboutMe: 'm: 13639013520'
             }
         ],
         Email: 'e: <a href="mailto:zhoubingyiya@gmail.com" target="_blank">zhoubingyiya@gmail.com</a>',
@@ -67,13 +67,7 @@ new Vue({
                 skill: '了解 jQuery，Vue.js 等主流框架'
             },
             {
-                skill: '懂些审美，重视用户体验与代码可维护性'
-            },
-            {
                 skill: '掌握 Python、Git、PhotoShop'
-            },
-            {
-                skill: '资深 Mac 用户、Google 用户'
             }
         ],
 
