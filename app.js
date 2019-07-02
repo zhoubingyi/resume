@@ -6,14 +6,24 @@ new Vue({
         aboutMeItems: [{
                 aboutMe: '男 / 1996.5'
             },
-            {
-                aboutMe: '本科 · 大连民族大学 · 软件工程'
-            },
+            // {
+            //     aboutMe: '本科 · 大连民族大学 · 软件工程'
+            // },
             {
                 aboutMe: 'm: 13639013520'
             }
         ],
         Email: 'e: <a href="mailto:zhoubingyiya@gmail.com" target="_blank">zhoubingyiya@gmail.com</a>',
+
+        //教育经历
+        educationExperience: '教育经历',
+        educations: {
+            One: {
+                name: '大连民族大学 · 软件工程 · 本科',
+                time: '2015/9-2019.7',
+                content: '获奖经历：第七届全国大学生电子商务“创新，创意及创业”挑战赛辽宁赛区三等奖；大连民族大学“挑战杯”选拔赛二等奖；大连民族大学计算机科学与工程学院网页设计大赛二等奖；'
+            },
+        },
 
         // 实习经历
         exercitationExperience: '实习经历',

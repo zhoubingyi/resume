@@ -121,6 +121,7 @@ p {
 	border-bottom: 2px solid #cf8a05;
 }
 
+
 #name h1 {
 	font-size: 2.5em;
 	font-weight: 700;
@@ -138,7 +139,7 @@ p {
 	padding: 0 40px;
 }
 
-#mainArea h3{
+#mainArea h3 {
 	padding: 10px 0px;
 }
 
