@@ -6,21 +6,21 @@ new Vue({
         aboutMeItems: [{
                 aboutMe: '男 / 1996.5'
             },
-            // {
-            //     aboutMe: '本科 · 大连民族大学 · 软件工程'
-            // },
             {
-                aboutMe: 'm: 13639013520'
+                aboutMe: '现居住地：北京'
+            },
+            {
+                aboutMe: '电话: 13639013520'
             }
         ],
-        Email: 'e: <a href="mailto:zhoubingyiya@gmail.com" target="_blank">zhoubingyiya@gmail.com</a>',
+        Email: '邮箱: <a href="mailto:zhoubingyiya@gmail.com" target="_blank">zhoubingyiya@gmail.com</a>',
 
         //教育经历
         educationExperience: '教育经历',
         educations: {
             One: {
                 name: '大连民族大学 · 软件工程 · 本科',
-                time: '2015/9-2019.7',
+                time: '2015.9 - 2019.7',
                 content: '获奖经历：第七届全国大学生电子商务“创新，创意及创业”挑战赛辽宁赛区三等奖；大连民族大学“挑战杯”选拔赛二等奖；大连民族大学计算机科学与工程学院网页设计大赛二等奖；'
             },
         },
@@ -29,8 +29,8 @@ new Vue({
         exercitationExperience: '实习经历',
         exercitations: {
             One: {
-                name: '贵阳朗玛科技实习',
-                time: '2019/3-2019.5',
+                name: '贵阳朗玛信息技术股份有限公司',
+                time: '2019.3 - 2019.5',
                 content: '开发电视机顶盒相关 App。做了清明节等相关等活动页面，遥控器焦点的跟踪。相关技术：用 thinkPhP 框架，使用原生JS。'
             },
         },
