@@ -88,6 +88,6 @@ new Vue({
             }
         ],
 
-        resumeOnGithub: '<a class="footer-link" href="https://github.com/zhoubingyi/resume">Resume On Github</a>'
+        resumeOnGithub: '<a class="footer-link" href="https://github.com/zhoubingyi/resume">简历链接（Github）</a>'
     }
 });
