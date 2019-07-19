@@ -97,4 +97,4 @@ new Vue({
 
         resumeOnGithub: '<a class="footer-link" href="https://github.com/zhoubingyi/resume">简历链接（Github）</a>'
     }
-}V;
+});
