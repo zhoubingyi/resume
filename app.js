@@ -62,10 +62,13 @@ new Vue({
         skills: '技能',
         skillItems: [
             {
-                skill: 'HTML、CSS、JavaScript 掌握 Web 前端开发基本技能，熟悉 W3C 标准'
+                skill: 'HTML、CSS、JavaScript'
             },
             {
-                skill: 'Python  '
+                skill: '了解 Vue'
+            },
+            {
+                skill: 'Python'
             },
             {
                 skill: 'Google、Git、PhotoShop'
@@ -74,7 +77,11 @@ new Vue({
 
         // 自我评价
         selfEvaluation: '自我评价',
-        selfItems: [{
+        selfItems: [
+            {
+                self: '能手写就手写，不依赖插件。手写代码更简洁高效，也更能提升自己技术。'
+            },
+            {
                 self: '对互联网产品和Web技术有强烈兴趣，有优秀的学习能力和强烈的进取心。'
             },
             {
@@ -90,4 +97,4 @@ new Vue({
 
         resumeOnGithub: '<a class="footer-link" href="https://github.com/zhoubingyi/resume">简历链接（Github）</a>'
     }
-});
+}V;
