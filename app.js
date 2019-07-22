@@ -31,7 +31,7 @@ new Vue({
             One: {
                 name: '贵阳朗玛信息技术股份有限公司',
                 time: '2019.3 - 2019.5',
-                content: '开发电视机顶盒相关 App。做了清明节等相关等活动页面，遥控器焦点的跟踪。相关技术：用 thinkPhP 框架，使用原生JS。'
+                content: '开发电视机顶盒相关 App。做了清明节等相关等活动页面，使用 Ajax 数据加载，用于抽奖的活动；使用 原生 js 做了电视机遥控器焦点的跟踪。相关技术：用 thinkPhP 框架，原生JS，Ajax。'
             },
         },
 
@@ -44,7 +44,7 @@ new Vue({
             },
             Two: {
                 name: '报表系统',
-                content: '使用 HTML、CSS 完成页面基本布局,使用 Python/ Django 进行后端开发。用 JavaScript 实现在页面直接查找数据，不直接查找数据库,负责开发小组的工作调度、人员职能安排与分配、网站的功能策划与需求分析。'
+                content: '使用 HTML、CSS 完成页面基本布局,使用 Python/ Django 进行后端开发。用 JavaScript 实现在页面直接查找数据，不直接查找数据库，负责开发小组的工作调度、人员职能安排与分配、网站的功能策划与需求分析。'
 
             },
             Three: {
@@ -65,10 +65,13 @@ new Vue({
                 skill: 'HTML、CSS、JavaScript'
             },
             {
-                skill: '了解 Vue'
+                skill: '熟悉 W3C 标准，了解 Web 语义化'
             },
             {
-                skill: 'Python'
+                skill: '了解 Vue.js、node.js、jQuery、Echarts、Ajax'
+            },
+            {
+                skill: 'Python、MySQL、MongoDB'
             },
             {
                 skill: 'Google、Git、PhotoShop'
@@ -79,7 +82,7 @@ new Vue({
         selfEvaluation: '自我评价',
         selfItems: [
             {
-                self: '能手写就手写，不依赖插件。手写代码更简洁高效，也更能提升自己技术。'
+                self: '能手写就手写，不依赖插件，手写代码更简洁高效，也更能提升自己技术。'
             },
             {
                 self: '对互联网产品和Web技术有强烈兴趣，有优秀的学习能力和强烈的进取心。'
