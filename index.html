@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>周秉颐 - 个人简历</title>
 	<meta name="viewport" content="width=device-width" />
@@ -7,6 +8,7 @@
 	<link type="text/css" rel="stylesheet" href="style.css">
 	<script src="Vue-2.6.7.js"></script>
 </head>
+
 <body id="top">
 	<div id="vue-app">
 		<div id="cv" class="instaFade">
@@ -24,25 +26,23 @@
 				<div class="clear"></div>
 			</div>
 			<div id="mainArea" class="quickFade delayFive">
-
-								<section>
-									<div class="sectionTitle">
-										<h1>{{educationExperience}}</h1>
-									</div>
-									<div class="sectionContent">
-										<div class="educationContent" v-for="education in educations">
-											<article>
-												<h2>{{education.name}}</h2>
-												<h3>{{education.time}}</h3>
-												<ul>
-													<li>{{education.content}}</li>
-												</ul>
-											</article>
-										</div>
-									</div>
-									<div class="clear"></div>
-								</section>
-
+				<section>
+					<div class="sectionTitle">
+						<h1>{{educationExperience}}</h1>
+					</div>
+					<div class="sectionContent">
+						<div class="educationContent" v-for="education in educations">
+							<article>
+								<h2>{{education.name}}</h2>
+								<h3>{{education.time}}</h3>
+								<ul>
+									<li>{{education.content}}</li>
+								</ul>
+							</article>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</section>
 				<section>
 					<div class="sectionTitle">
 						<h1>{{exercitationExperience}}</h1>
@@ -61,49 +61,49 @@
 					<div class="clear"></div>
 				</section>
 				<section>
-				<section>
-					<div class="sectionTitle">
-						<h1>{{projectExperience}}</h1>
-					</div>
-					<div class="sectionContent">
-						<div class="projectContent" v-for="project in projects">
+					<section>
+						<div class="sectionTitle">
+							<h1>{{projectExperience}}</h1>
+						</div>
+						<div class="sectionContent">
+							<div class="projectContent" v-for="project in projects">
+								<article>
+									<h2>{{project.name}}</h2>
+									<!-- <p>{{project.content}}</p> -->
+									<ul>
+										<li>{{project.content}}</li>
+									</ul>
+								</article>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</section>
+					<section>
+						<div class="sectionTitle">
+							<h1>{{skills}}</h1>
+						</div>
+						<div class="sectionContent">
+							<ul class="keySkills">
+								<li v-for="item in skillItems">{{item.skill}}</li>
+							</ul>
+						</div>
+						<div class="clear"></div>
+					</section>
+					<section>
+						<div class="sectionTitle">
+							<h1>{{selfEvaluation}}</h1>
+						</div>
+						<div class="sectionContent">
 							<article>
-								<h2>{{project.name}}</h2>
-								<!-- <p>{{project.content}}</p> -->
-								<ul>
-									<li>{{project.content}}</li>
-								</ul>
+								<div class="toMe">
+									<ul>
+										<li v-for="item in selfItems">{{item.self}}</li>
+									</ul>
+								</div>
 							</article>
 						</div>
-					</div>
-					<div class="clear"></div>
-				</section>
-				<section>
-					<div class="sectionTitle">
-						<h1>{{skills}}</h1>
-					</div>
-					<div class="sectionContent">
-						<ul class="keySkills">
-							<li v-for="item in skillItems">{{item.skill}}</li>
-						</ul>
-					</div>
-					<div class="clear"></div>
-				</section>
-				<section>
-					<div class="sectionTitle">
-						<h1>{{selfEvaluation}}</h1>
-					</div>
-					<div class="sectionContent">
-						<article>
-							<div class="toMe">
-								<ul>
-									<li v-for="item in selfItems">{{item.self}}</li>
-								</ul>
-							</div>
-						</article>
-					</div>
-					<div class="clear"></div>
-				</section>
+						<div class="clear"></div>
+					</section>
 			</div>
 			<footer class="github-footer">
 				<span v-html="resumeOnGithub"></span>
@@ -112,4 +112,5 @@
 	</div>
 	<script src="app.js"></script>
 </body>
+
 </html>
