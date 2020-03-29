@@ -2,7 +2,7 @@ new Vue({
     el: '#vue-app',
     data: {
         name: '周秉颐',
-        job: '前端 / Python 开发工程师',
+        job: '前端开发工程师',
         aboutMeItems: [{
                 aboutMe: '男 / 1996.5'
             },
@@ -36,49 +36,63 @@ new Vue({
         },
 
         // 项目介绍
-        projectExperience: '项目经历',
+        projectExperience: '工作经历',
         projects: {
             One: {
-                name: '购物网站',
-                content: '使使用 HTML、CSS、JavaScript完成页面基本布局,使用 Python/ Django 进行后端开发，数据库使用 MySQL。通过 JavaScript(jQuery框架) 实现效果，如轮播图及回到顶部，导航下拉菜单及三级菜单实现。'
-            },
-            Two: {
-                name: '报表系统',
-                content: '使用 HTML、CSS、JavaScript完成页面基本布局,使用 Python/ Django 进行后端开发，数据库使用 MySQL。用 JavaScript 实现在页面直接查找数据，不直接查找数据库，负责开发小组的工作调度、人员职能安排与分配、网站的功能策划与需求分析。'
+                name: '东方国信',
+                time: '2019.8 - 至今',
+                content: {
+                    One: {
+                        tittle: '应急保障系统',
+                        contents: [
+                            '1.负责全部页面开发，使用 layUI',
+                            '2.接口调用，使用 Ajax',
+                            '3.使用高德地图地图绘画相关区域',
+                        ]
+                    },
+                    Two: {
+                        tittle: '行销系统',
+                        contents: [
+                            '1.负责部分页面开发，使用 vue + elementUI',
+                            '2.接口调用，使用 axio',
+                            '3.使用 Echarts 与 高德地图 进行数据展示',
+                        ]
+                    },
+                    Three: {
+                        tittle: '精准触达系统（出差）',
+                        contents: [
+                            '1.帮组页面开发，使用 vue + elementUI',
+                            '2.接口调用，使用 axio',
+                            '3.使用 Echarts 与 高德地图 进行数据展示',
+                        ]
+                    },
+                    Four: {
+                        tittle: '逍遥黔游系统',
+                        contents: [
+                            '1.安排相关工作与进度',
+                            '2.负责全部页面开发，使用 vue + elementUI',
+                            '3.接口调用，使用 axio',
+                            '4.使用 Echarts 与 高德地图 进行数据展示',
+                        ]
+                    },
 
-            },
-            // Three: {
-            //     name: '新闻管理系统',
-            //     content: '负责编写详细需求分析和客户管理模块,使用 HTML、CSS 完成页面基本布局,使用 JSP 进行后端开发，实现了新闻添加、新闻修改、新闻删除等几大功能。'
+                }
 
-            // },
-            four: {
-                name: '房租信息爬取及数据分析',
-                content: '使用 Python 爬取贝壳找房数据，使用 pandas 进行数据清理，describe 方法计算出最大值、最小值、平均值等进行分析；使用 Matplotlib 将得到的数据分析得到的数据表格进行可视化输出。'
-            },
-            five: {
-                name: '课表导入日历脚本',
-                content: 'python2.7，配置 Excel 表格记录课程名，时间，教室等信息，配置 JSON 文件记录每个课程等节数，上下课时间。根据日历的文档记录成事件提醒，生成 ics 文件。'
+
+
             },
         },
 
         // 技能介绍
         skills: '技能',
-        skillItems: [
-            {
+        skillItems: [{
                 skill: 'HTML、CSS、JavaScript'
             },
             {
                 skill: 'Python、Django'
             },
             {
-                skill: '熟悉 W3C 标准，了解 Web 语义化'
-            },
-            {
-                skill: '了解 Vue.js、node.js、jQuery、Echarts、Ajax'
-            },
-            {
-                skill: 'MySQL、MongoDB'
+                skill: 'Vue.js、node.js、jQuery、Echarts、Ajax'
             },
             {
                 skill: 'Google、Git、PhotoShop'
@@ -87,8 +101,7 @@ new Vue({
 
         // 自我评价
         selfEvaluation: '自我评价',
-        selfItems: [
-            {
+        selfItems: [{
                 self: '能手写就手写，不依赖插件，手写代码更简洁高效，也更能提升自己技术。'
             },
             {

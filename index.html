@@ -26,6 +26,28 @@
 				<div class="clear"></div>
 			</div>
 			<div id="mainArea" class="quickFade delayFive">
+			<section>
+					<section>
+						<div class="sectionTitle">
+							<h1>{{projectExperience}}</h1>
+						</div>
+						<div class="sectionContent">
+							<div class="projectContent" v-for="project in projects">
+								<article>
+									<h2>{{project.name}}</h2>
+									<h3>{{project.time}}</h3>
+									<!-- <p>{{project.content}}</p> -->
+									<ul v-for="data in project.content">
+										<li class="projectTittle">{{data.tittle}}</li>
+										<ul  v-for="datas in data.contents">
+											<li class="projectData">{{datas}}</li>
+										</ul>
+									</ul>
+								</article>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</section>
 				<section>
 					<div class="sectionTitle">
 						<h1>{{educationExperience}}</h1>
@@ -60,24 +82,7 @@
 					</div>
 					<div class="clear"></div>
 				</section>
-				<section>
-					<section>
-						<div class="sectionTitle">
-							<h1>{{projectExperience}}</h1>
-						</div>
-						<div class="sectionContent">
-							<div class="projectContent" v-for="project in projects">
-								<article>
-									<h2>{{project.name}}</h2>
-									<!-- <p>{{project.content}}</p> -->
-									<ul>
-										<li>{{project.content}}</li>
-									</ul>
-								</article>
-							</div>
-						</div>
-						<div class="clear"></div>
-					</section>
+
 					<section>
 						<div class="sectionTitle">
 							<h1>{{skills}}</h1>

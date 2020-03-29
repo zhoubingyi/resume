@@ -469,3 +469,12 @@ section:last-child {
 .github-footer a {
 	color: #cf8a05;
 }
+
+.projectData{
+	margin-left: 20px;
+}
+
+.projectTittle{
+	margin-top: 20px;
+	font-weight: bold;
+}
