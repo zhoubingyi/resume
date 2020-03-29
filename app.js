@@ -11,6 +11,9 @@ new Vue({
             // },
             {
                 aboutMe: '电话: 13639013520'
+            },
+            {
+                aboutMe: '教育经历: 大连民族大学 · 软件工程 · 本科'
             }
         ],
         Email: '邮箱: <a href="mailto:zhoubingyiya@gmail.com" target="_blank">zhoubingyiya@gmail.com</a>',
@@ -39,40 +42,37 @@ new Vue({
         projectExperience: '工作经历',
         projects: {
             One: {
-                name: '东方国信',
+                name: '北京东方国信科技股份有限公司',
                 time: '2019.8 - 至今',
                 content: {
                     One: {
                         tittle: '应急保障系统',
                         contents: [
-                            '1.负责全部页面开发，使用 layUI',
-                            '2.接口调用，使用 Ajax',
-                            '3.使用高德地图地图绘画相关区域',
+                            '负责全部页面开发，使用 layUI，接口调用使用 Ajax',
+                            '使用高德地图地图绘画相关区域',
                         ]
                     },
                     Two: {
                         tittle: '行销系统',
                         contents: [
-                            '1.负责部分页面开发，使用 vue + elementUI',
-                            '2.接口调用，使用 axio',
-                            '3.使用 Echarts 与 高德地图 进行数据展示',
+                            '负责部分页面开发，使用 vue + elementUI，接口调用使用 axio',
+                            '使用 Echarts 与 高德地图 进行数据展示，地图上展示热力图，绘制的区域',
+                            '高德地图点击相关区域，刷新 Echarts 的数据'
                         ]
                     },
                     Three: {
                         tittle: '精准触达系统（出差）',
                         contents: [
-                            '1.帮组页面开发，使用 vue + elementUI',
-                            '2.接口调用，使用 axio',
-                            '3.使用 Echarts 与 高德地图 进行数据展示',
+                            '协助页面开发，使用 vue + elementUI，接口调用使用 axio',
+                            '使用 Echarts 与 高德地图 进行数据展示',
                         ]
                     },
                     Four: {
                         tittle: '逍遥黔游系统',
                         contents: [
-                            '1.安排相关工作与进度',
-                            '2.负责全部页面开发，使用 vue + elementUI',
-                            '3.接口调用，使用 axio',
-                            '4.使用 Echarts 与 高德地图 进行数据展示',
+                            '安排相关工作与进度',
+                            '负责全部页面开发，使用 vue + elementUI，接口调用，使用 axio',
+                            '使用 Echarts 与 高德地图 进行数据展示',
                         ]
                     },
 
